@@ -7,4 +7,8 @@ mouse.prototype.die = function(){
 	this.dead = true;
 };
 
+mouse.prototype.eat = function(){
+	this.color = blue;
+};
+
 module.exports = mouse;
