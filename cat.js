@@ -8,7 +8,7 @@ cat.prototype.eat = function(mouse){
 };
 
 cat.prototype.die = function(){
-	return false;
+	return true;
 }
 
 module.exports = cat;
